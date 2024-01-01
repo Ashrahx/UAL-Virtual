@@ -1,3 +1,16 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f09a3e;
+  border-radius: 10px;
+}
+
 body {
   margin: 0px;
   background: #008000;
@@ -264,7 +277,7 @@ body {
 .btn:hover {
   color: #fff;
   background: #000;
-  transition: all 0.2s ease;
+  transition: 0.2s ease;
 }
 
 #main .section-2 {
@@ -424,7 +437,6 @@ body {
 
 .conta{
   background: #fff;
-  border-radius: 6px;
   padding: 20px 60px 30px 40px;
 }
 .conta .conten{
